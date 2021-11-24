@@ -13,6 +13,11 @@ const Layout = ({ children }) => {
           </Toolbar>
         </AppBar>
         <Container>{children}</Container>
+        <footer>
+          <Typography>
+            All rights resereved <strong>&copy;</strong> Amazona
+          </Typography>
+        </footer>
       </Head>
     </div>
   );
