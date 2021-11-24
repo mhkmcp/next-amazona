@@ -15,8 +15,8 @@ const Layout = ({ children }) => {
             <Typography>amazona</Typography>
           </Toolbar>
         </AppBar>
-        <Container>{children}</Container>
-        <footer>
+        <Container className={classes.main}>{children}</Container>
+        <footer className={classes.footer}>
           <Typography>
             All rights resereved <strong>&copy;</strong> Amazona
           </Typography>
